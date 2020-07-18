@@ -1,0 +1,11 @@
+{
+  "title": "Docker Bootcamp - Fundamentals",
+  "description": "Docker Bootcamp de conceptos fundamentales, imagenes, contenedores, network, Dockerfile",
+  "courses": [
+    {
+      "course_id": "docker101",
+      "title": "docker 101",
+      "description": "docker 101"
+    }
+  ]
+}
