@@ -1,4 +1,4 @@
-![1](https://raw.githubusercontent.com/dockerguatemala/katacoda-scenarios/master/docs/bootcamp.png)
+![1](./assets/1.0.png)
 
 <br>
 
