@@ -2,7 +2,7 @@
 
 <br>
 
-[Kontinu](http://www.kontinu.io/) y Docker Guatemala presenta este Bootcamp, de forma gratuita
+[Kontinu](http://www.kontinu.io/)  presenta este Bootcamp, de forma gratuita
 
 > "que no panda el cúnico" - Chapulin Colorado
 
