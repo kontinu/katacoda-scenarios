@@ -1,0 +1,11 @@
+{
+  "title": "Bootcamps",
+  "description": "Kontinu ofrece una serie de Bootcamps, este es parte del material de apoyo para los bootcamps de Docker, Kubernetes y Devops",
+  "courses": [
+    {
+      "course_id": "docker101",
+      "title": "docker 101",
+      "description": "Docker Bootcamp v1.0 - Fundamentals"
+    }
+  ]
+}
