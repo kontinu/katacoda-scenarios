@@ -2,7 +2,7 @@
 
 A curated list of Docker Compose samples.
 
-![1](assets/awesome-compose.jpg)
+![1](./assets/awesome-compose.jpg)
 
 
 https://github.com/docker/awesome-compose
