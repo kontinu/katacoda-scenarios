@@ -1,9 +1,10 @@
-# From Compose to Swarm
+# Docker Bootcamp v1.5 - Core
 
-<!-- ![1](img/portada.png) -->
+Aprenderemos core-concepts, este laboratorio esta diseñado para que empieces con:
 
+- aplicaciones multi contenedores (multi-tier)
 
----
+Estas aplicaciones estan compuestas quizas por: frontend, backend, storage. por ejemplo
 
 
 ## Meet our app

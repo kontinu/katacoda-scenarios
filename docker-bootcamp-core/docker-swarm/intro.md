@@ -4,4 +4,4 @@ Aprenderemos core-concepts, este laboratorio esta diseñado para que empieces co
 
 - aplicaciones multi contenedores (multi-tier)
 
-Estas aplicaciones estan compuestas quizas por: frontend, backend, storage.
+Estas aplicaciones estan compuestas quizas por: frontend, backend, storage. por ejemplo
