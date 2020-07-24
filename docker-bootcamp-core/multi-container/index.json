@@ -6,23 +6,23 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Single Docker Engine",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Docker Compose",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Intro Swarm Mode",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Swarm Mode",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Compose on Kubernetes",
         "text": "step5.md"
       }
     ],
@@ -34,9 +34,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "docker-swarm"
   }
 }
