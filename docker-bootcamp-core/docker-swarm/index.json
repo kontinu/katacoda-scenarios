@@ -1,17 +1,21 @@
 {
-  "title": "Multi-Container applications",
-  "description": "Usaremos docker y docker-compose para modelar un app sencilla de multiples capas",
+  "title": "Docker Swarm",
+  "description": "Intro a Docker Swarm como un orquestador",
   "difficulty": "Intermediate",
-  "time": "15",
+  "time": "40 minutes",
   "details": {
     "steps": [
       {
-        "title": "Single Docker Engine",
+        "title": "Intro Swarm Mode",
         "text": "step1.md"
       },
       {
-        "title": "Docker Compose",
+        "title": "Swarm Mode",
         "text": "step2.md"
+      },
+      {
+        "title": "Compose on Kubernetes",
+        "text": "step3.md"
       }
     ],
     "intro": {
