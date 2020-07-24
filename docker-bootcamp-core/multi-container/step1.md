@@ -1,6 +1,6 @@
 # Local Environment
 
-<img src="/assets/single-engine.png" class="center" alt="About me" style="width:300px;">
+<img src="./assets/single-engine.png" class="center" alt="About me" style="width:300px;">
 
 ## Just docker run?
 
