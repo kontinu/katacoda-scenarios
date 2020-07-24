@@ -3,14 +3,14 @@
 This section will give you the necessary to go full to production with Docker swarm mode.
 
 
-<img src="/assets/swarm.png" class="center" alt="About me" style="width:300px;">
+<img src="./assets/swarm.png" class="center" alt="About me" style="width:300px;">
 ![1](assets/swarm.png)
 
 <details>
   <summary>Swarm vs K8</summary>
 
 <h3>Docker swarm es mejor que kubernetes .... <br> pero ustedes no estan listos para esta conversacion </h3>
-<img src="/assets/swarmvsk8.png" class="center" alt="About me" style="width:400px;">
+<img src="./assets/swarmvsk8.png" class="center" alt="About me" style="width:400px;">
 ![2](assets/swarmvsk8.png)
 
 - Just Kidding
