@@ -3,7 +3,6 @@
 This section will give you the necessary to go full to production with Docker swarm mode.
 
 
-<img src="./assets/swarm.png" class="center" alt="About me" style="width:300px;">
 ![1](assets/swarm.png)
 
 <details>
