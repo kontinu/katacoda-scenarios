@@ -5,13 +5,10 @@
 ## Solo docker run?
 
 
-```
-docker run -d --rm  -p 7777:80 --name=web_server nginx
-```{{ execute "T1" }}
+`docker run -d --rm  -p 7777:80 --name=web_server nginx`{{execute "T1"}}
 
-```
-docker ps
-```{{ execute "T1" }}
+
+`docker ps`{{execute "T1"}}
 
 
 ### Abrir puerto 7777
@@ -21,14 +18,10 @@ https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environments.katacoda.com/
 
 Intentemos llegarle al contenedor "web_server"
 
-```
-docker run -it --rm --name container1 alpine sh
-```{{ execute T2 }}
+`docker run -it --rm --name container1 alpine sh`{{execute T2}}
 
 
-```
-ping -c4 web_server
-```{{ execute T2 }}
+`ping -c4 web_server`{{execute T2}}
 
 Imposible no funciona :(
 
