@@ -11,7 +11,7 @@
 `docker ps`{{execute "T1"}}
 
 
-### Abrir puerto 7777
+### Visitar nginx en puerto 7777
 
 https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environments.katacoda.com/
 
