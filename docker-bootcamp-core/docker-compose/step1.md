@@ -5,6 +5,7 @@
 `cd container-bootcamps-src/core`{{execute}}
 
 `container-bootcamps-src/core`{{open}}
+
 # [Docker Compose](https://docs.docker.com/compose/)
 
 
@@ -14,13 +15,13 @@ Para empezar a utilizar debe copiar el .env.example a .env
 
 abra el contenido del mismo
 
-`.env`{{open}}
+`container-bootcamps-src/core/.env`{{open}}
 
 ## Local Development - Hot Reload
 
 
-`docker-compose.yml`{{open}}
-`compose/docker-compose-hotreload.yml`{{open}}
+`container-bootcamps-src/core/docker-compose.yml`{{open}}
+`container-bootcamps-src/core/compose/docker-compose-hotreload.yml`{{open}}
 
 Config nos permite ver como seria el yaml final
 
