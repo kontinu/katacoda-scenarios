@@ -16,7 +16,7 @@
 https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environments.katacoda.com/
 
 
-Intentemos llegarle al contenedor "web_server"
+Intentemos llegarle al contenedor "web_server" desde otro contenedor "container1"
 
 `docker run -it --rm --name container1 alpine sh`{{execute T2}}
 
