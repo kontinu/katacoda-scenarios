@@ -62,25 +62,25 @@ Up corre los servicios
 
 ### Check the default/created network
 
-```
+`docker network ls`{{execute}}
 
-docker network ls
-
-docker network inspect $(docker network ls --format "{{.Name}}" --filter name=compose)
-```{{execute}}
+`docker network inspect $(docker network ls --format "{{.Name}}" --filter name=compose)`{{execute}}
 
 
-### docker-compose useful commands
+## docker-compose useful commands
 
-```
-# running containers
-docker-compose ps
 
-# running processes in containers
-docker-compose top
+running containers
 
-# logs
-docker-compose logs
+`docker-compose ps`{{execute}}
 
-```{{execute}}
+running processes in containers
+
+`docker-compose top`{{execute}}
+
+logs
+
+`docker-compose logs`{{execute}}
+
+
 
