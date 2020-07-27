@@ -2,20 +2,20 @@
 
 <img src="./assets/single-engine.png" class="center" alt="About me" style="width:300px;">
 
-## Just docker run?
+## Solo docker run?
 
-
-```bash
-docker run -d --rm --name -p 7777:80 web_server nginx
-
-
-open http://localhost:7777
-
-
-
-docker run -it --rm --name container1 alpine sh
 
 ```
+docker run -d --rm  -p 7777:80 --name=web_server nginx
+```{{ execute "T1" }}
+
+Abrir puerto 7777: https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+
+```
+docker run -it --rm --name container1 alpine sh
+````{{ execute "T1" }}
 
 ???+ danger "Does not work"
 
