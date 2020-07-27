@@ -16,9 +16,16 @@ abra el contenido del mismo
 
 ## Local Development - Hot Reload
 
+
+`docker-compose.yml`{{open}}
+`compose/docker-compose-hotreload.yml`{{open}}
+
+Config nos permite ver como seria el yaml final
+
 `docker-compose -f docker-compose.yml -f compose/docker-compose-hotreload.yml config`{{execute}}
 
 
+Up corre los servicios
 `docker-compose -f docker-compose.yml  -f compose/docker-compose-hotreload.yml up`{{execute}}
 
 ## Workflow
