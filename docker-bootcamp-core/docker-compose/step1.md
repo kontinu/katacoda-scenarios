@@ -38,38 +38,41 @@ Up corre los servicios
 ### Template docker-compose.yml file
 
 `docker-compose.yml`{{open}}
-```bash
-docker-compose config
-```
+
+`docker-compose config`{{execute}}
 
 ### Build
-```bash
-# build and up
-docker-compose -f docker-compose.yml up --build
-# only build
-docker-compose -f docker-compose.yml build
-# push it
-docker-compose -f docker-compose.yml push
-```
+
+**build and up**
+
+
+`docker-compose -f docker-compose.yml up --build`{{execute}}
+
+
+*solo build*
+`docker-compose -f docker-compose.yml build`{{execute}}
+
+
+*push*
+`docker-compose -f docker-compose.yml push`{{execute}}
 
 ### Start
-```bash
-docker-compose up
-```
+
+`docker-compose up`{{execute}}
 
 ### Check the default/created network
 
-```bash
+```
 
 docker network ls
 
 docker network inspect $(docker network ls --format "{{.Name}}" --filter name=compose)
-```
+```{{execute}}
 
 
 ### docker-compose useful commands
 
-```bash
+```
 # running containers
 docker-compose ps
 
@@ -79,5 +82,5 @@ docker-compose top
 # logs
 docker-compose logs
 
-```
+```{{execute}}
 
