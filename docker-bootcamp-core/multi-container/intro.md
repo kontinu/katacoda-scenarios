@@ -15,7 +15,7 @@ Estas aplicaciones estan compuestas quizas por: frontend, backend, storage. por 
 
 ## Architecture
 
-> Nada fancy del otro mundo
+> Nada fancy, nada del otro mundo
 
 <img src="(./assets/architecture.png" class="center" alt="Arquitectura" style="width:300px;">
 
