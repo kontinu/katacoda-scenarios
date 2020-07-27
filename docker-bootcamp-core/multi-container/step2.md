@@ -10,7 +10,15 @@ Ademas corramos nuestra aplicacion formada por:
 `docker network create mynetwork`{{execute T1}}
 
 
+Cuales redes tenemos disponibles?
+
 `docker network ls`{{execute T1}}
+
+
+Veamos como se conforma un objeto de tipo "network"
+`docker network inspect mynetwork`{{execute T1}}
+
+
 
 ## Redis
 
