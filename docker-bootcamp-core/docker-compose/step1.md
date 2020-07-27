@@ -11,11 +11,10 @@
 
 Para empezar a utilizar debe copiar el .env.example a .env
 
+
 `cp .env.example .env`{{execute}}
 
-abra el contenido del mismo
-
-`container-bootcamps-src/core/.env`{{open}}
+> con estas podemos hacer "templating" :)
 
 ## Local Development - Hot Reload
 
