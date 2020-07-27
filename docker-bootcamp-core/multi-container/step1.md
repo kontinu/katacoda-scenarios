@@ -15,7 +15,7 @@ Abrir puerto 7777: https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environment
 
 ```
 docker run -it --rm --name container1 alpine sh
-````{{ execute "T1" }}
+```{{ execute "T1" }}
 
 ???+ danger "Does not work"
 
