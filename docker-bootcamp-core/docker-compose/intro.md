@@ -2,7 +2,7 @@
 
 "Compose es una herramienta para definir y correr aplicaciones Docker multi-container. Con compose, usamos YAML para declarar los servicios que necesite su aplicacion. Luego con un comando sencillo, creamos e iniciamos todos esos servicios
 
-Compose es util en ambientes de testing, staging, produccion y CI.
+Compose es util en ambientes de testing, staging, produccion y CI."
 
 > OJO que compose es para single-engine.
 
