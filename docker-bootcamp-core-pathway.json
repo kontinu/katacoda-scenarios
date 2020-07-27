@@ -9,12 +9,12 @@
     },
     {
       "course_id": "docker-swarm",
-      "title": "Docker Swarm",
+      "title": "Intro a Docker Swarm",
       "description": "Intro a Docker Swarm como un orquestador"
     },
     {
       "course_id": "docker-compose",
-      "title": "docker-compose",
+      "title": "Intro a docker-compose para multi-container apps",
       "description": "docker-compose basics for multi-container apps"
     }
   ]
