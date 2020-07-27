@@ -9,6 +9,10 @@
 docker run -d --rm  -p 7777:80 --name=web_server nginx
 ```{{ execute "T1" }}
 
+```
+docker ps
+```{{ execute "T1" }}
+
 Abrir puerto 7777: https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environments.katacoda.com/
 
 
