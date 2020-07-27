@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Single Docker Engine",
+        "title": "Network con contenedores",
         "text": "step1.md"
+      },
+      {
+        "title": "Corramos nuestra app usando solo docker",
+        "text": "step2.md"
       }
     ],
     "intro": {
