@@ -35,6 +35,7 @@ Up corre los servicios
 
 ### Template docker-compose.yml file
 
+`docker-compose.yml`{{open}}
 ```bash
 docker-compose config
 ```
