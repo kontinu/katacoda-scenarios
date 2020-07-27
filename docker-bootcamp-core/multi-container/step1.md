@@ -5,7 +5,7 @@
 ## Solo docker run?
 
 
-`docker run -d --rm  -p 7777:80 --name=web_server nginx`{{execute "T1"}}
+`docker run -d --rm  -p 7777:80 --name=web_server nginx:alpine`{{execute "T1"}}
 
 
 `docker ps`{{execute "T1"}}
