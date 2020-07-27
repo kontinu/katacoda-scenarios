@@ -1,4 +1,4 @@
-# Docker Bootcamp v1.5 - Core
+# Puramente Docker
 
 Aprenderemos core-concepts, este laboratorio esta diseñado para que empieces con:
 
