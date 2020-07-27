@@ -8,14 +8,6 @@
       {
         "title": "Single Docker Engine",
         "text": "step1.md"
-      },
-      {
-        "title": "Docker Compose",
-        "text": "step2.md"
-      },
-      {
-          "title": "Awesome Compose",
-          "text": "step3.md"
       }
     ],
     "intro": {

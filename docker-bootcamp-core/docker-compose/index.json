@@ -1,0 +1,30 @@
+{
+  "title": "docker-compose",
+  "description": "docker-compose basics for multi-container apps",
+  "difficulty": "Intermediate",
+  "time": "30",
+  "details": {
+    "steps": [
+        {
+            "title": "Docker Compose",
+            "text": "step1.md"
+        },
+        {
+            "title": "Awesome Compose",
+            "text": "step2.md"
+        }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
