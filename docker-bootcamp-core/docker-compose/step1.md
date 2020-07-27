@@ -1,19 +1,25 @@
+# Clonar repositorio
+
+`git clone git@github.com:kontinu/container-bootcamps-src.git`{{execute}}
+
 
 # [Docker Compose](https://docs.docker.com/compose/)
-to start using this project make sure you follow up the .env.example fill it with your own variables
 
-```bash
-cp .env.example .env
-```
+
+Para empezar a utilizar debe copiar el .env.example a .env
+
+`cp .env.example .env`{{execute}}
+
+abra el contenido del mismo
+
+`.env`{{open}}
 
 ## Local Development - Hot Reload
 
-```bash
-docker-compose -f docker-compose.yml  -f compose/docker-compose-hotreload.yml config
+`docker-compose -f docker-compose.yml -f compose/docker-compose-hotreload.yml config`{{execute}}
 
 
-docker-compose -f docker-compose.yml  -f compose/docker-compose-hotreload.yml up
-```
+`docker-compose -f docker-compose.yml  -f compose/docker-compose-hotreload.yml up`{{execute}}
 
 ## Workflow
 
