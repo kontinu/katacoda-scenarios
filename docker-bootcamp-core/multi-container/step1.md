@@ -26,4 +26,6 @@ Intentemos llegarle al contenedor "web_server"
 Imposible no funciona :(
 
 
+Aun que ambos contenedores esten corriendo es imposible comunicarse entre contenedores
 
+`docker ps`{{execute T1}}
