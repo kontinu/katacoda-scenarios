@@ -10,14 +10,14 @@ Estas aplicaciones estan compuestas quizas por: frontend, backend, storage. por 
 
 ## Meet our app
 
-
-![2](./assets/ourapp.png)
+<img src="(./assets/ourapp.png" class="center" alt="Nuestra App Frontend" style="width:300px;">
 
 
 ## Architecture
 
 > Nada fancy
 
-![3](./assets/architecture.png)
+<img src="(./assets/architecture.png" class="center" alt="Arquitectura" style="width:300px;">
+
 
 
