@@ -1,14 +1,24 @@
-## Fixed docker runs
-```bash
-#create a local network, so that containers can see each other
-docker network create mynetwork
+## Docker Networks
 
-# create the backend Redis container and attach it to the network
-docker run --name redis -d --network mynetwork redis:alpine
+Creemos una red local para que los contenedores puedan verse uno al otro.
 
-# create the app container, expose it in a different port
-docker run -p 5500:5000 -it --network mynetwork -e "REDIS_HOST=redis"  mcano/docker:intro
+Ademas corramos nuestra aplicacion formada por:
 
-# OR if you prefer local environment development supported by Docker
-docker run -p 5500:5000 -it --network mynetwork -e "REDIS_HOST=redis" -v $(pwd):/code mcano/docker:intro sh
-```
+- WebApp (que se comunica con Redis para incrementar el numero de visitas)
+- Redis (que lleva el conteo de cuantas visitas)
+
+`docker network create mynetwork`{{execute T1}}
+
+
+## Creemos Redis pero poniendolo en la red que acabamos de crear
+
+`docker run --name redis -d --network mynetwork redis:alpine`{{execute T1}}
+
+## Creemos el contenedor de nuestra app en la misma red que acabamos de crear y configuremos con variables de entorno.
+
+`docker run -p 5500:5000 -it --network mynetwork -e "REDIS_HOST=redis"  mcano/docker:intro`{{execute T1}}
+
+
+### Visitemos nuestra App
+
+https://[[HOST_SUBDOMAIN]]-5500-[[KATACODA_HOST]].environments.katacoda.com/
