@@ -33,3 +33,13 @@ volumes:
   logvolume01: {}
 </code>
 </pre>
+
+
+---
+
+Algunos comandos de docker-compose son capaces de:
+
+- Start, stop, y rebuild services
+- Ver el estado de los servicios actualmente corriendo
+- Stream la salida de los logs de los servicios corriendo
+- Correr comandos one-off en un servicio.
