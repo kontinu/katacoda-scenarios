@@ -36,10 +36,18 @@ volumes:
 
 
 ---
-
+## Comandos
 Algunos comandos de docker-compose son capaces de:
 
 - Start, stop, y rebuild services
 - Ver el estado de los servicios actualmente corriendo
 - Stream la salida de los logs de los servicios corriendo
 - Correr comandos one-off en un servicio.
+
+
+## Caracteristicas
+
+- Ambientes aislados en un mismo Host
+- Preservar la data en volumenes creados por compose.
+- Recrear SOLO aquellos contenedores que han cambiado.
+- Configuracion por medio de variables entre ambientes.
