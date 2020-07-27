@@ -19,7 +19,7 @@ Ademas corramos nuestra aplicacion formada por:
 `docker run -p 5500:5000 -it --network mynetwork -e "REDIS_HOST=redis"  mcano/docker:intro`{{execute T1}}
 
 
-- REDIS_HOST=redis se utiliza de esa manera por que es el service discovery que Docker provee por defecto.
+`REDIS_HOST=redis` se utiliza de esa manera por que es el service discovery que Docker provee por defecto.
 
 ### Visitemos nuestra App
 
