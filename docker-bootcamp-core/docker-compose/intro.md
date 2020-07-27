@@ -15,7 +15,7 @@ En el mundo compose basta con 3 pasos:
 
 Un docker-compose luce asi:
 <pre>
-<code class="python">
+<code class="yaml hljs">
 version: '2.0'
 services:
   web:
