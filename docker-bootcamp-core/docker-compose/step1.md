@@ -2,7 +2,9 @@
 
 `git clone https://github.com/kontinu/container-bootcamps-src.git`{{execute}}
 
+`cd container-bootcamps-src/core`{{execute}}
 
+`container-bootcamps-src/core`{{open}}
 # [Docker Compose](https://docs.docker.com/compose/)
 
 
