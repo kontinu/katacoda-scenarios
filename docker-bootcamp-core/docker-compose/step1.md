@@ -30,13 +30,7 @@ Up corre los servicios
 
 ## Workflow
 
-```mermaid
-graph TD;
-    id1>Common Dev Workflow with compose];
-    %% comment
-    docker-compose.yml+app -- docker-compose build -->DockerImage;
-    DockerImage -- docker-compose push -->DockerHub;
-```
+![1](assets/workflow.png)
 
 
 ### Template docker-compose.yml file
