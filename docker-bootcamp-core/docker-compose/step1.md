@@ -1,6 +1,6 @@
 # Clonar repositorio
 
-`git clone git@github.com:kontinu/container-bootcamps-src.git`{{execute}}
+`git clone https://github.com/kontinu/container-bootcamps-src.git`{{execute}}
 
 
 # [Docker Compose](https://docs.docker.com/compose/)
