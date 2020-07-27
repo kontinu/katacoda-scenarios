@@ -23,12 +23,12 @@ Intentemos llegarle al contenedor "web_server"
 
 ```
 docker run -it --rm --name container1 alpine sh
-```{{ execute "T2" }}
+```{{ execute T2 }}
 
 
 ```
 ping -c4 web_server
-```{{ execute "T2" }}
+```{{ execute T2 }}
 
 
 ---
