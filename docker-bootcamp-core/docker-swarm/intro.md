@@ -24,8 +24,7 @@ Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker
 
 </details>
 
-<details>
-  <summary>Features</summary>
+# Features
 
 
 <ul>
@@ -51,4 +50,4 @@ Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker
 <li> Hyper EASY </li>
 
 </ul>
-</details>
+
