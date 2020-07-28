@@ -7,10 +7,16 @@
 
 # Setup
 
+Revise ambos hostnames
+
+- `hostname`{{execute T1}}
+- `hostname`{{execute T2}}
 
 ## Master
 
 check swarm is enabled
+
+
 `docker info |grep -i swarm`{{execute}}
 
 
