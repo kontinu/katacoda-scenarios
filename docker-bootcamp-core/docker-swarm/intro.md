@@ -6,3 +6,48 @@ Docker swarm es un orquestador de contenedores en multi-engine, que permite admi
 
 Los Master Nodes son los encargados de decidir en qué Nodo (ya sea master o worker node) colocar los contenedores y asi aprovechar los recursos de una mucho mejor manera.
 
+
+# Intro [Swarm Mode](https://docs.docker.com/engine/swarm/)
+This section will give you the necessary to go full to production with Docker swarm mode.
+
+
+<img src="./assets/swarm.png" class="center" alt="Swarm" style="width:300px;">
+
+<details>
+  <summary>Swarm vs K8</summary>
+
+<h3>Docker swarm es mejor que kubernetes .... <br> pero ustedes no estan listos para esta conversacion </h3>
+<img src="./assets/swarmvsk8.png" class="center" alt="Swarm vs K8" style="width:400px;">
+
+- Just Kidding
+
+</details>
+
+<details>
+  <summary>Features</summary>
+
+
+<ul>
+<li> Cluster management integrated with Docker Engine</li>
+
+
+<li> Declarative service model </li>
+
+<li> Scaling </li>
+
+<li> Desired state reconciliation (The swarm manager node constantly monitors the desired state )</li>
+
+<li> Multi-host networking </li>
+
+<li> Service discovery </li>
+
+<li> Load balancing</li>
+
+<li> Secure by default (intra node) </li>
+
+<li> Rolling updates </li>
+
+<li> Hyper EASY </li>
+
+</ul>
+</details>

@@ -6,12 +6,16 @@
   "details": {
     "steps": [
         {
-            "title": "Docker Compose",
+            "title": "Docker Compose Hot Reload",
             "text": "step1.md"
         },
         {
-            "title": "Awesome Compose",
+            "title": "Docker Compose Templating",
             "text": "step2.md"
+        },
+        {
+            "title": "Awesome Compose",
+            "text": "step3.md"
         }
     ],
     "intro": {

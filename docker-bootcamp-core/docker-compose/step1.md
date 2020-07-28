@@ -4,7 +4,7 @@
 
 `cd container-bootcamps-src/core`{{execute}}
 
-`container-bootcamps-src/core`{{open}}
+
 
 # [Docker Compose](https://docs.docker.com/compose/)
 
