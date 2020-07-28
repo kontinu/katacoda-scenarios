@@ -13,6 +13,7 @@ Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker
 
 <img src="./assets/swarm.png" class="center" alt="Swarm" style="width:300px;">
 
+<br><br>
 <details>
   <summary>Swarm vs K8</summary>
 
@@ -23,6 +24,8 @@ Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker
 - Just Kidding
 
 </details>
+
+<br><br>
 
 # Features
 
