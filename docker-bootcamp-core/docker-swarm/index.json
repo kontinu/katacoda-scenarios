@@ -14,8 +14,12 @@
         "text": "step2.md"
       },
       {
-        "title": "Compose on Kubernetes",
+        "title": "Stack Deploy",
         "text": "step3.md"
+      },
+      {
+        "title": "Compose on Kubernetes",
+        "text": "step4.md"
       }
     ],
     "intro": {
