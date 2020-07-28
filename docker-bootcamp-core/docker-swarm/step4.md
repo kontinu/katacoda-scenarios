@@ -5,7 +5,7 @@ Instead of scaling your service everytime, why don't we declare it?
 
 Inspect the .replicas.yml file and find "deploy: " section
 
-`container-bootcamps-src/core/compose/docker-compose.replicas.yml`{{open}}
+`less compose/docker-compose.replicas.yml`{{execute}}
 
 ### Deploy new update for the stack
 
@@ -26,7 +26,7 @@ Rolling updates let you update your app with zero-downtime.
 
 inspect .rolling file and find the "update_config:" section, try to understand it
 
-`container-bootcamps-src/core/compose/docker-compose.rolling.yml`{{open}}
+`less compose/docker-compose.rolling.yml`{{execute}}
 
 
 Deploy/update this new configuration for your stack
@@ -78,7 +78,7 @@ Run docker ps first to see there's no (healthy)
 
 inspect .health file and find the "healthcheck:" section, try to understand it
 
-`container-bootcamps-src/core/compose/docker-compose.health.yml`{{open}}
+`less compose/docker-compose.health.yml`{{execute}}
 
 Deploy/update this new configuration for your stack
 

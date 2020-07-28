@@ -6,7 +6,7 @@
 
 inspeccionemos nuestra declaracion de stack y entendamosla.
 
-`container-bootcamps-src/core/docker-compose.simple.yml`{{open}}
+`less docker-compose.simple.yml`{{execute}}
 
 
 deploy it
@@ -41,7 +41,7 @@ Show current status
 
 inspect the stack file and try to find the directive "FOO=${FOO:-BAR}"
 
-`container-bootcamps-src/core/docker-compose.simple.yml`{{open}}
+`less docker-compose.simple.yml`{{execute}}
 
 inject the new value
 
