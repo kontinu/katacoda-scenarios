@@ -4,17 +4,17 @@
   "courses": [
     {
       "course_id": "multi-container",
-      "title": "Multi-Container applications con solo docker",
+      "title": "01. Multi-Container applications con solo docker",
       "description": "Usaremos docker para modelar un app sencilla de multiples capas"
     },
     {
       "course_id": "docker-swarm",
-      "title": "Intro a Docker Swarm",
+      "title": "03. Intro a Docker Swarm",
       "description": "Intro a Docker Swarm como un orquestador"
     },
     {
       "course_id": "docker-compose",
-      "title": "Intro a docker-compose para multi-container apps",
+      "title": "02. Intro a docker-compose para multi-container apps",
       "description": "docker-compose como ayuda multi-container apps"
     }
   ]
