@@ -8,7 +8,7 @@ Los Master Nodes son los encargados de decidir en qué Nodo (ya sea master o wor
 
 
 # Intro [Swarm Mode](https://docs.docker.com/engine/swarm/)
-This section will give you the necessary to go full to production with Docker swarm mode.
+Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker swarm.
 
 
 <img src="./assets/swarm.png" class="center" alt="Swarm" style="width:300px;">
@@ -16,9 +16,10 @@ This section will give you the necessary to go full to production with Docker sw
 <details>
   <summary>Swarm vs K8</summary>
 
-<h3>Docker swarm es mejor que kubernetes .... <br> pero ustedes no estan listos para esta conversacion </h3>
+<h4>Docker swarm es mejor que kubernetes .... <br> pero ustedes no estan listos para esta conversacion </h4>
 <img src="./assets/swarmvsk8.png" class="center" alt="Swarm vs K8" style="width:400px;">
 
+<br>
 - Just Kidding
 
 </details>
