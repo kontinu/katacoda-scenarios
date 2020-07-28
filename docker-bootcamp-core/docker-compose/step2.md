@@ -41,7 +41,7 @@ En los archivos .yml se puede utilizar la notación `${VAR:-default}` para poder
 
 `docker-compose -f docker-compose.yml push`{{execute}}
 
-## Start
+## Start detached
 
 `docker-compose up -d`{{execute interrupt}}
 
@@ -52,7 +52,7 @@ En los archivos .yml se puede utilizar la notación `${VAR:-default}` para poder
 
 `docker network ls`{{execute}}
 
-`docker network inspect $(docker network ls --format "{{.Name}}" --filter name=compose)`{{execute}}
+`docker network inspect $(docker network ls --format "{{.Name}}" --filter name=skynet)`{{execute}}
 
 
 ## docker-compose useful commands
