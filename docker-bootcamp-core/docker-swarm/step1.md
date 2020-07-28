@@ -9,24 +9,24 @@
 
 Revise ambos hostnames
 
-- `hostname`{{execute T1}}
-- `hostname`{{execute T2}}
+- `hostname`{{execute HOST1}}
+- `hostname`{{execute HOST2}}
 
 ## Master
 
 check swarm is enabled
 
 
-`docker info |grep -i swarm`{{execute}}
+`docker info |grep -i swarm`{{execute HOST1}}
 
 
-`docker swarm init || echo "Already in Swarm Mode"`{{execute}}
+`docker swarm init || echo "Already in Swarm Mode"`{{execute HOST1}}
 
 
-`docker node ls`{{execute}}
+`docker node ls`{{execute HOST1}}
 
 
-`docker swarm join-token worker`{{execute}}
+`docker swarm join-token worker`{{execute HOST1}}
 
 ## Workers
 
