@@ -8,9 +8,18 @@
 
 ### Template docker-compose.yml file
 
+En compose se puede inyectar variables de entorno de dos maneras:
+- .env file
+- env vars
+
+En los archivos .yml se puede utilizar la notación `${VAR}` para poder reemplazar estas variables.
+
+
 `docker-compose.yml`{{open}}
 
-`docker-compose config`{{execute}}
+
+
+`docker-compose config`{{execute interrupt }}
 
 ### Build
 
@@ -20,22 +29,22 @@
 `docker-compose -f docker-compose.yml up --build`{{execute}}
 
 
-*solo build*
+**solo build**
 `docker-compose -f docker-compose.yml build`{{execute}}
 
 
 > cambie su .env y apunte a un repository valido.
 > probablemenet necesitara de hacer docker login
 
-*push*
+**push**
 
 `docker-compose -f docker-compose.yml push`{{execute}}
 
-### Start
+**Start**
 
 `docker-compose up -d`{{execute}}
 
-### Check the default/created network
+## Networking
 
 `docker network ls`{{execute}}
 
@@ -56,6 +65,4 @@ running processes in containers
 logs
 
 `docker-compose logs`{{execute}}
-
-
 
