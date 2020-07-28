@@ -18,8 +18,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Compose on Kubernetes",
+        "title": "Production Swarm Stack Stuff",
         "text": "step4.md"
+      },
+      {
+        "title": "Compose on Kubernetes",
+        "text": "step5.md"
       }
     ],
     "intro": {
