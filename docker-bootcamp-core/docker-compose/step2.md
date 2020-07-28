@@ -12,10 +12,11 @@ En compose se puede inyectar variables de entorno de dos maneras:
 - .env file
 - env vars
 
-En los archivos .yml se puede utilizar la notación `${VAR}` para poder reemplazar estas variables.
+En los archivos .yml se puede utilizar la notación `${VAR:-default}` para poder reemplazar estas variables.
 
+`container-bootcamps-src/core/.env`{{open}}
 
-`docker-compose.yml`{{open}}
+`container-bootcamps-src/core/docker-compose.yml`{{open}}
 
 
 
