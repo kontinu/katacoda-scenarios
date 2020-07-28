@@ -39,24 +39,22 @@ https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 
-**Scale the service**
-```bash
-docker service update --replicas 3 nginx-ws
-```
+**Escalemos los servicios**
+
+`docker service update --replicas 3 nginx-ws`{{execute HOST1}}
+
 > Go to your visualizer (click in your upper link port 8080) and see how the services are spread.
 
-**Checking service logs**
-```bash
-docker service logs nginx-ws
-```
+**Revise los logs del servicio**
+`docker service logs nginx-ws`{{execute}}
 
-**Delete the service**
-```bash
-docker service rm nginx-ws
+**Borre el servicio**
+`docker service rm nginx-ws`{{execute}}
+ 
+ 
+Revise los servicio que actualmente estan corriendo.
 
-# check for running services
-docker service ls
-```
+`docker service ls`{{execute}}
 
 ---
 ## 3. Simple Stack deploy
