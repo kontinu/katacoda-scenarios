@@ -20,7 +20,7 @@ Comandos de `service`
 
 # Cree un servicio con base en la imagen Nginx
 
-`docker service create --name nginx-ws -p 80:80 nginx`{{execute HOST1}}
+`docker service create --name nginx-ws -p 8888:80 nginx`{{execute HOST1}}
 
 
 # List the current services
@@ -35,7 +35,7 @@ Comandos de `service`
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 **Vis**
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 
