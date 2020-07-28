@@ -5,7 +5,7 @@
 `cd container-bootcamps-src/core`{{execute HOST1}}
 
 
-# Setup
+# Setup Swarm Cluster
 
 Revise ambos hostnames
 
@@ -39,8 +39,8 @@ Copy mananger token join command and run in worker
 
 
 
-
 # Algunas observaciones
 
 - hay comandos que solamente pueden ser ejecutados en los Master nodes
 - al momento de hacer deploy de services es unicamente necesario correrlo en **1 solo master**.
+- Fácil ?
