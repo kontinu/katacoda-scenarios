@@ -1,47 +1,41 @@
 # Swarm Steps
 
-## 0. git clone
 
-```bash
 
-git clone https://github.com/jmarcos-cano/compose-to-swarm.git
-cd compose-to-swarm
+## 1. Habilite Visualizer en el puerto 8080
 
-```
+`docker service create  --name=viz  --publish=8080:8080/tcp  --constraint=node.role==manager  --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock  dockersamples/visualizer`{{execute HOST1}}
 
-## 1. Enable Visualizer on port 8080
+# espere hasta que diga "service converged"
 
-```bash
-docker service create \
-  --name=viz \
-  --publish=8080:8080/tcp \
-  --constraint=node.role==manager \
-  --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
-  dockersamples/visualizer
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
-# wait until it says "service converged"
-```
-
-??? info "⚠️"
-    go to your visualizer (click in your upper link port 8080) and see how the services are spread.
 
 ---
 
-## 2. Simple service create
+## 2. Creemos un servicio sencillo
 
+Comandos de `service`
 
-```bash
-# Create a swarm service from a Nginx docker image
-docker service create --name nginx-ws -p 80:80 nginx
+`docker service --help`{{execute HOST1}}
+
+# Cree un servicio con base en la imagen Nginx
+
+`docker service create --name nginx-ws -p 80:80 nginx`{{execute HOST1}}
+
 
 # List the current services
-docker service ls
-```
+
+`docker service ls`{{execute HOST1}}
 
 
-??? info "⚠️"
-    Go to your visualizer (click in your upper link port 8080) and see how the services are spread.
-    Click also on Port 80 (Nginx) - it should say "Welcome to Nginx"
+
+## Visite Nginx y Visualizer
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 

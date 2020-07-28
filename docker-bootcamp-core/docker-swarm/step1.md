@@ -38,6 +38,8 @@ Copy mananger token join command and run in worker
 `docker node ls`{{execute HOST1}}
 
 
+
+
 # Algunas observaciones
 
 - hay comandos que solamente pueden ser ejecutados en los Master nodes
