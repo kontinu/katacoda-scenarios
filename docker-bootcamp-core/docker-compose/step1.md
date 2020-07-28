@@ -38,4 +38,14 @@ https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 ## Edite el app
+
+Edite Línea #23 `<h2> Version: v3</h2>` coloque la version que ud quiera
+
+
 `container-bootcamps-src/core/app/templates/index.html`{{open}}
+
+
+Vuelva a visitar el app y observe su cambio.
+
+
+https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com/
