@@ -41,9 +41,12 @@ En los archivos .yml se puede utilizar la notación `${VAR:-default}` para poder
 
 `docker-compose -f docker-compose.yml push`{{execute}}
 
-**Start**
+## Start
 
-`docker-compose up -d`{{execute}}
+`docker-compose up -d`{{execute interrupt}}
+
+
+
 
 ## Networking
 
@@ -67,3 +70,7 @@ logs
 
 `docker-compose logs`{{execute}}
 
+
+
+## Down
+`docker-compose down`{{execute}}
