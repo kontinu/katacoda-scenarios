@@ -22,7 +22,9 @@ Para empezar a utilizar debe copiar el .env.example a .env
 `container-bootcamps-src/core/docker-compose.yml`{{open}}
 `container-bootcamps-src/core/compose/docker-compose-hotreload.yml`{{open}}
 
-Config nos permite ver como seria el yaml final *after templating*
+> si desea puede cambiar IMAGE_NAME en .env
+
+Config nos permite ver como seria el yaml final **after templating**
 
 `docker-compose -f docker-compose.yml -f compose/docker-compose-hotreload.yml config`{{execute}}
 
