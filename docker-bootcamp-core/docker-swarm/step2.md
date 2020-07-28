@@ -31,10 +31,10 @@ Comandos de `service`
 
 ## Visite Nginx y Visualizer
 
-**Nginx**
+**Vis**
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
-**Vis**
+**Nginx**
 https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/
 
 
