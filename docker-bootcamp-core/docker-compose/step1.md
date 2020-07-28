@@ -27,5 +27,11 @@ Config nos permite ver como seria el yaml final *after templating*
 `docker-compose -f docker-compose.yml -f compose/docker-compose-hotreload.yml config`{{execute}}
 
 
+{{container-bootcamps-src/core/}}
+
 Up corre los servicios
 `docker-compose -f docker-compose.yml  -f compose/docker-compose-hotreload.yml up`{{execute}}
+
+
+# Visiste el app
+https://[[HOST_SUBDOMAIN]]-7777-[[KATACODA_HOST]].environments.katacoda.com/
