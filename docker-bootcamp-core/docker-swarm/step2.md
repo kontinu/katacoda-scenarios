@@ -41,14 +41,16 @@ https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/
 
 **Escalemos los servicios**
 
-`docker service update --replicas 3 nginx-ws`{{execute HOST1}}
+`docker service scale nginx-ws=3`{{execute HOST1}}
 
 > Go to your visualizer (click in your upper link port 8080) and see how the services are spread.
 
 **Revise los logs del servicio**
+
 `docker service logs nginx-ws`{{execute}}
 
 **Borre el servicio**
+
 `docker service rm nginx-ws`{{execute}}
 
 
