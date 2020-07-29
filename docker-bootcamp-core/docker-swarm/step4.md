@@ -5,7 +5,7 @@ En lugar de escalar cada vez o contratar a alguien para que lo haga  🐿
 Mejor declaramos el estado deseado.
 
 
-inspeccione el archivo .replicas.yml  y encuentre  la seccion "deploy: "
+🔬 Inspeccione el archivo .replicas.yml  y encuentre  la seccion "deploy: "
 
 `cat compose/docker-compose.replicas.yml`{{execute}}
 
@@ -19,6 +19,7 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 ---
 ## 7. Rolling Updates
+
 Rolling updates para tener deployments con zero-downtime.
 
 
@@ -28,7 +29,7 @@ Rolling updates para tener deployments con zero-downtime.
 
 
 
-inspeccione el archivo .rolling.yaml y encuentre la seccion "update_config:" intente entenderla.
+🔬 Inspeccione el archivo .rolling.yaml y encuentre la seccion "update_config:" intente entenderla.
 
 `cat compose/docker-compose.rolling.yml`{{execute}}
 
@@ -43,7 +44,6 @@ actualicemos la imagen.
 `docker stack deploy -c <(IMAGE_NAME=mcano/compose-to-swarm:v2 docker-compose -f compose/docker-compose.rolling.yml config) --resolve-image=always compose_swarm`{{execute}}
 
 
-
 > forcemos estos rolling updates
 
 Haga esto cuantas veces sea necesario y observe visualizer para ver que es lo que sucede detras de camaras.
@@ -53,15 +53,14 @@ reiniciemos nuestra app de manera graceful.
 `docker service update --force compose_swarm_web`{{execute}}
 
 
-
-
 ---
 ## 8. Host limit resource
 
-Uno puede prevenir que un contenedor en particular consuma toda nuestra Memoria y/o CPU usando la seccion "resources:"
+
+⚙️ Uno puede prevenir que un contenedor en particular consuma toda nuestra Memoria y/o CPU usando la seccion "resources:"
 
 
-inspeccione el archivo .resources y encuentre la seccion "resources:", intente entenderla.
+🔬 Inspeccione el archivo .resources y encuentre la seccion "resources:", intente entenderla.
 
 `container-bootcamps-src/core/compose/docker-compose.resources.yml`{{execute}}
 
@@ -72,7 +71,7 @@ Deploy/update.
 
 
 
-## 9. Health Check and Self healing
+## 9. Health Check and Self healing 🌡
 
 Los reinicios automaticos en caso de fallo y  healthcheck tambien son posibles utilizando "healthcheck: "
 
@@ -96,14 +95,15 @@ Despues de algunos segundos ...
 `docker ps`{{execute}}
 
 
-Corra `docker service ps compose_swarm_web`, identifique cualquier contenedor (vea en que nodo esta corriendo).
+## Matemos a un contenedor
 
-vaya a ese  `docker ps` find the container and its ID (first column), kill it and see how it self heals
+`docker ps --filter="name=swarm_web" --format="{{.Names}}" | head -1 | xargs docker kill `
 
-`docker kill <container ID>`
 
-> info "info"
-> Go to your visualizer (click in your upper link port 8080) and see how the services are spread and self healed.
+**Vis**
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
 
 
 

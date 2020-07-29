@@ -20,10 +20,12 @@ Comandos de `service`
 
 # Cree un servicio con base en la imagen Nginx
 
+> 💡 explicar el comando
+
 `docker service create --name nginx-ws -p 8888:80 nginx`{{execute HOST1}}
 
 
-# List the current services
+# Listar los servicios actualmente corriendo
 
 `docker service ls`{{execute HOST1}}
 

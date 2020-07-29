@@ -30,7 +30,7 @@ check swarm is enabled
 
 ## Workers
 
-Copy mananger token join command and run in worker
+Copiar comando para mananger join y corramoslo en el worker.
 
 
 ## Master check all nodes

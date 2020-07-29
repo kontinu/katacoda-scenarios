@@ -1,6 +1,6 @@
 # 🐳 Docker Bootcamp v1.5 - Core
 
-Este laboratorio aprenderemos Docker Swarm.
+Este laboratorio aprenderemos Docker Swarm y de algunas herramientas 🧰.
 
 Docker swarm es un orquestador de contenedores en multi-engine, que permite administrar varios Nodos que conforman un Cluster, estos Nodos pueden ser: Wokers o Masters.
 
@@ -53,6 +53,9 @@ Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker
 <li> Rolling updates </li>
 
 <li> Hyper EASY </li>
+
+<li> Developer Friendly </li>
+
 
 </ul>
 

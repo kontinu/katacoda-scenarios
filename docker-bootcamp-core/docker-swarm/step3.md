@@ -2,9 +2,9 @@
 ---
 ## 3. Simple Stack deploy
 
->Recuerda que es un stack?
+> ❓ Recuerda que es un stack ❓
 
-inspeccionemos nuestra declaracion de stack y entendamosla.
+🔬 inspeccionemos nuestra declaracion de stack y entendamosla.
 
 `cat docker-compose.simple.yml`{{execute}}
 
@@ -35,16 +35,16 @@ mostrar el status actual
 `docker stack ps compose_swarm`{{execute}}
 
 ---
-## 4. Environment Variables injection
+## 4. Environment Variables injection 🎛
 
-> 💡 This will give you a small intro to how you can manage configuration per environment (dev,qa,stage,production)
+> 💡 Esto nos da una pequeña idea de como manejar multipleas ambientes (dev,qa,stage,production)
 
 
-Inspeccione el YAML y encuentre esta directiva `FOO=${FOO:-BAR}` tratemos de reemplazar.
+🔬 Inspeccione el YAML y encuentre esta directiva `FOO=${FOO:-BAR}` tratemos de reemplazar.
 
 `cat docker-compose.simple.yml`{{execute}}
 
-Inyectemos el nuevo valor
+💉 Inyectemos el nuevo valor
 
 `export FOO="Development"`{{execute}}
 
@@ -59,9 +59,9 @@ Hagamos deploy y veamos hacer el cambio automaticamente.
 
 
 
-**PROD**
+# Produccion 💡💵
 
-Observe como seria un deploy a produccion, podemos usar `.configs/production.env`
+👀 Observe como seria un deploy a produccion, podemos usar `.configs/production.env`
 
 
 `docker stack deploy -c <(docker-compose --env-file .configs/production.env -f docker-compose.simple.yml config ) --resolve-image=always --with-registry-auth compose_swarm_prod`{{execute}}
@@ -77,7 +77,7 @@ https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/
 > Dare you to put your own Text there, see how sometimes the application becomes unaccessible?
 
 ---
-## 5. Scale web app
+## 5. Scale web app 🎚
 
 - Quisiera manejar mas trafico ?
 - Quisiera que su app fuera mas tolerante a fallos ?
