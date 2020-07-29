@@ -96,9 +96,9 @@ Despues de algunos segundos ...
 `docker ps`{{execute}}
 
 
-Do a: `docker service ps compose_swarm_web`, Identify the placement of a container (identify on which node is running).
+Corra `docker service ps compose_swarm_web`, identifique cualquier contenedor (vea en que nodo esta corriendo).
 
-Jump into that node and run `docker ps` find the container and its ID (first column), kill it and see how it self heals
+vaya a ese  `docker ps` find the container and its ID (first column), kill it and see how it self heals
 
 `docker kill <container ID>`
 

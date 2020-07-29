@@ -40,7 +40,7 @@ mostrar el status actual
 > 💡 This will give you a small intro to how you can manage configuration per environment (dev,qa,stage,production)
 
 
-Inspeccione el YAML y encuentre esta directiva "FOO=${FOO:-BAR}" tratemos de reemplazar.
+Inspeccione el YAML y encuentre esta directiva `FOO=${FOO:-BAR}` tratemos de reemplazar.
 
 `cat docker-compose.simple.yml`{{execute}}
 
