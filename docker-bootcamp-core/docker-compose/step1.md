@@ -34,7 +34,8 @@ Up corre los servicios
 `docker-compose -f docker-compose.yml  -f compose/docker-compose-hotreload.yml up`{{execute}}
 
 
-## Visiste el app
+## Visite el app
+
 https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com/
 
 

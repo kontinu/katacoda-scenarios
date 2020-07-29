@@ -1,8 +1,10 @@
 # Local Environment
 
+> 💡 lo que queremos es que el webapp se comunique con el Storage (Redis), por lo tanto necesitamos comunicacion inter-container.
+
 <img src="./assets/single-engine.png" class="center" alt="About me" style="width:300px;">
 
-## Solo docker run?
+## Solo docker run? 🐳
 
 
 `docker run -d --rm  -p 7777:80 --name=web_server nginx:alpine`{{execute "T1"}}

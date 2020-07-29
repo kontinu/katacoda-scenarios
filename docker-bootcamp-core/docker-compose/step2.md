@@ -8,7 +8,7 @@
 
 ### Template docker-compose.yml file
 
-En compose se puede inyectar variables de entorno de dos maneras:
+💉 En compose se puede inyectar variables de entorno de dos maneras:
 - .env file
 - env vars
 
