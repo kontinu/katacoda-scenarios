@@ -33,7 +33,6 @@
       "text": "finish.md"
     }
   },
-  
   "backend": {
     "imageid": "docker-swarm"
   },
