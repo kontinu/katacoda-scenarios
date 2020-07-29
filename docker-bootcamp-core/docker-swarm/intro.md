@@ -6,6 +6,8 @@ Docker swarm es un orquestador de contenedores en multi-engine, que permite admi
 
 Los Master Nodes son los encargados de decidir en qué Nodo (ya sea master o worker node) colocar los contenedores y asi aprovechar los recursos de una mucho mejor manera.
 
+Docker Swarm declarativo se hace usando el mismo archivo [docker-compose.yml](https://docs.docker.com/compose/compose-file) que ud ya conoce ++
+
 
 # Intro [Swarm Mode](https://docs.docker.com/engine/swarm/)
 Esta seccion le dara lo necesario para ir a un ambiente de produccion con Docker swarm.

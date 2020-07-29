@@ -20,16 +20,17 @@ deploy it
 
 <br>
 
-APP
+**App**
 
 https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com/
 
-VISUALIZER
+**Vis**
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 <br>
-Show current status
+
+mostrar el status actual
 
 `docker stack ps compose_swarm`{{execute}}
 
@@ -39,15 +40,15 @@ Show current status
 > 💡 This will give you a small intro to how you can manage configuration per environment (dev,qa,stage,production)
 
 
-inspect the stack file and try to find the directive "FOO=${FOO:-BAR}"
+Inspeccione el YAML y encuentre esta directiva "FOO=${FOO:-BAR}" tratemos de reemplazar.
 
 `cat docker-compose.simple.yml`{{execute}}
 
-inject the new value
+Inyectemos el nuevo valor
 
 `export FOO="Development"`{{execute}}
 
-deploy it and see it update automatically
+Hagamos deploy y veamos hacer el cambio automaticamente.
 
 `docker stack deploy -c docker-compose.simple.yml --resolve-image=always --with-registry-auth compose_swarm`{{execute}}
 
@@ -58,10 +59,15 @@ deploy it and see it update automatically
 
 
 
-PROD
+**PROD**
+
+Observe como seria un deploy a produccion, podemos usar `.configs/production.env`
+
 
 `docker stack deploy -c <(docker-compose --env-file .configs/production.env -f docker-compose.simple.yml config ) --resolve-image=always --with-registry-auth compose_swarm_prod`{{execute}}
 
+
+https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 
@@ -73,9 +79,9 @@ PROD
 ---
 ## 5. Scale web app
 
-- Want to handle more traffic?
-- Want to be more resilient?
-- Want High Availability?
+- Quisiera manejar mas trafico ?
+- Quisiera que su app fuera mas tolerante a fallos ?
+- Quisiera alta disponibilidad ?
 
 Swarm got you covered
 

@@ -1,9 +1,11 @@
 
 ## 6. Declarative Deployment Replicas
-Instead of scaling your service everytime, why don't we declare it?
+En lugar de escalar cada vez o contratar a alguien para que lo haga  🐿
+
+Mejor declaramos el estado deseado.
 
 
-Inspect the .replicas.yml file and find "deploy: " section
+inspeccione el archivo .replicas.yml  y encuentre  la seccion "deploy: "
 
 `cat compose/docker-compose.replicas.yml`{{execute}}
 
@@ -17,14 +19,16 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 ---
 ## 7. Rolling Updates
-Rolling updates let you update your app with zero-downtime.
+Rolling updates para tener deployments con zero-downtime.
+
+
 <br>
 
-> 💡 v1 has been running for 2 weeks now and you are ready to ship your new and hottest feature on v2, with rolling updates you can easily ship v2 let it coexist with v1 until v1 gets fully drain (removed) and v2 gets out.
+> 💡 v1 ha estado corriendo por casi 2 semanas y estamos listos para mandar a produccion nuestro nuevo caracteristica v2, con estos rollin updates facilmente podemos actualizar v1 sin tener ninguna caida durante el upgrade.
 
 
 
-inspect .rolling file and find the "update_config:" section, try to understand it
+inspeccione el archivo .rolling.yaml y encuentre la seccion "update_config:" intente entenderla.
 
 `cat compose/docker-compose.rolling.yml`{{execute}}
 
@@ -34,34 +38,34 @@ Deploy/update this new configuration for your stack
 
 `docker stack deploy -c <(docker-compose -f compose/docker-compose.rolling.yml config) --resolve-image=always compose_swarm`{{execute}}
 
-update image
+actualicemos la imagen.
 
 `docker stack deploy -c <(IMAGE_NAME=mcano/compose-to-swarm:v2 docker-compose -f compose/docker-compose.rolling.yml config) --resolve-image=always compose_swarm`{{execute}}
 
 
 
-> Lets force update to see the rolling updates
+> forcemos estos rolling updates
 
-Do this how many times you need in order to see it working.
+Haga esto cuantas veces sea necesario y observe visualizer para ver que es lo que sucede detras de camaras.
+reiniciemos nuestra app de manera graceful.
 
-graceful full restart of your app
+
 `docker service update --force compose_swarm_web`{{execute}}
 
-> Go to your visualizer (click in your upper link port 8080) and see how the services are spread.
 
 
 
 ---
 ## 8. Host limit resource
 
-One can prevent memory starvation or CPU consumption of your app by adding "resources:" section
+Uno puede prevenir que un contenedor en particular consuma toda nuestra Memoria y/o CPU usando la seccion "resources:"
 
 
-inspect .resources file and find the "resources:" section, try to understand it
+inspeccione el archivo .resources y encuentre la seccion "resources:", intente entenderla.
 
 `container-bootcamps-src/core/compose/docker-compose.resources.yml`{{execute}}
 
-Deploy/update this new configuration for your stack
+Deploy/update.
 
 
 `docker stack deploy -c compose/docker-compose.resources.yml --resolve-image=always compose_swarm`{{execute}}
@@ -69,23 +73,25 @@ Deploy/update this new configuration for your stack
 
 
 ## 9. Health Check and Self healing
-Auto restarts and health-check can also be possible by adding "healthcheck: "
+
+Los reinicios automaticos en caso de fallo y  healthcheck tambien son posibles utilizando "healthcheck: "
 
 
 
 Run docker ps first to see there's no (healthy)
 `docker ps`{{execute}}
 
-inspect .health file and find the "healthcheck:" section, try to understand it
+inspeccione el archivo .health y encuentre la seccion "healthcheck:" , intente entenderla.
 
 `cat compose/docker-compose.health.yml`{{execute}}
 
-Deploy/update this new configuration for your stack
+Deploy/update
 
 `docker stack deploy -c compose/docker-compose.health.yml --resolve-image=always compose_swarm`{{execute}}
 
 
-after a few seconds run
+Despues de algunos segundos ...
+
 
 `docker ps`{{execute}}
 
