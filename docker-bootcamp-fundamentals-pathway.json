@@ -4,7 +4,7 @@
   "courses": [
     {
       "course_id": "docker101",
-      "title": "docker 101",
+      "title": "docker 101, fundamentos de Docker",
       "description": "docker 101"
     }
   ]
