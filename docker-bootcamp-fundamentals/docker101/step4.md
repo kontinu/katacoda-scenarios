@@ -1,4 +1,4 @@
-# Puertos expuestos
+# Port Forwarding
 
 Para especificar puertos
 
@@ -6,13 +6,15 @@ Para especificar puertos
 `docker container run -it -p 8080:80 nginx`{{execute}}
 
 
-Lo expone en el puerto 8080: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+Lo expone en el puerto `8080:`
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 EXPOSE en el Dockerfile si sirve :)
 
-`docker run -it -P -d nginx`{{execute}}
+`docker container un -it -P -d nginx`{{execute}}
 
-> lamentablemente en Katacoda no tengo como exponer esto variable.
+> lamentablemente en Katacoda no tengo como exponer esta variable.
 
 `docker container ps`{{execute}}
