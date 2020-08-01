@@ -1,6 +1,9 @@
-# Correr un contenedor que ejecute un Shell
+# Linux distros shells.
 
-## Ubuntu 18.04
+Podriamos aprender Linux con Docker?
+
+---
+### Ubuntu 18.04
 
 Inspeccione el hostname del host
 `hostname`{{execute}}
@@ -27,6 +30,7 @@ read -p "exit"
 exit
 ```{{execute}}
 
+---
 
 ## Centos 8
 
@@ -44,7 +48,7 @@ exit
 ```{{execute}}
 
 
-
+---
 ## Alpine 3.11
 
 `docker container run  --rm -it alpine:3.11 sh`{{execute}}

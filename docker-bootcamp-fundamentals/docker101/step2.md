@@ -1,4 +1,4 @@
-# El comando que importa
+# El comando que importa [COMMAND]
 
 `docker container run -d nginx:alpine`{{execute}}
 
@@ -14,7 +14,7 @@ Que comando ve en la columna de **COMMAND** ?
 este comando es importante mas adelante.
 
 ---
-# Exec
+# Container Exec
 
 Corramos un nginx server
 

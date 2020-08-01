@@ -6,15 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Comandos Basicos",
+        "title": "Comandos Básicos",
         "text": "step1.md"
       },
       {
-        "title": "Step 1.5",
+        "title": "Aprender Linux?",
         "text": "step1.5.md"
       },
       {
-        "title": "Step 2",
+        "title": "Commands & Exec",
         "text": "step2.md"
       },
       {
