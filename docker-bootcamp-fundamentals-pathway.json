@@ -6,6 +6,11 @@
       "course_id": "docker101",
       "title": "docker 101, fundamentos de Docker",
       "description": "comandos basicos"
-    }
+    },
+    {
+        "course_id": "docker-build",
+        "title": "Simple Docker builds para generar Imagenes",
+        "description": "Simple Docker builds para generar Imagenes"
+      }
   ]
 }

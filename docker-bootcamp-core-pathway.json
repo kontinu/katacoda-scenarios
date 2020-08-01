@@ -8,14 +8,15 @@
       "description": "Usaremos docker para modelar un app sencilla de multiples capas"
     },
     {
-        "course_id": "docker-compose",
-        "title": "02. Intro a docker-compose para multi-container apps",
-        "description": "docker-compose como ayuda multi-container apps"
+      "course_id": "docker-compose",
+      "title": "02. Intro a docker-compose para multi-container apps",
+      "description": "docker-compose como ayuda multi-container apps"
     },
     {
       "course_id": "docker-swarm",
       "title": "03. Intro a Docker Swarm",
       "description": "Intro a Docker Swarm como un orquestador"
     }
+
   ]
 }
