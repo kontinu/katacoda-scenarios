@@ -8,8 +8,9 @@ help
 
 ### correr un hello-world
 
-`docker run -d hello-world`{{execute}}
+`docker container run -d hello-world`{{execute}}
 
+> explicar cada flag y comandos.
 
 listando contenedores existentes
 
@@ -25,11 +26,19 @@ listando contenedores existentes
 
 Ubuntu 18.04
 
+Inspeccione el hostname del host
+`hostname`{{execute}}
+
+
 `docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
 
 > instala un Ubuntu package
 
 ```
+# el hostname del contenedor?
+hostname
+
+
 curl
 apt-get update -y
 apt-get install -y curl
