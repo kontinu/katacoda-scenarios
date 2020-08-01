@@ -1,10 +1,19 @@
-# Clonar repositorio
-
-`git clone https://github.com/kontinu/container-bootcamps-src.git`{{execute}}
-
-`cd container-bootcamps-src/fundamentals/web`{{execute}}
+# Pull
 
 
-Inspeccionemos los archivos.
+Las imagenes son el "ejecutable" que se puede compartir con todo el mundo.
 
-`Dockerfile`{{open}}
+
+# Donde viven estas imagenes? 
+
+viven en un repositorio de imagenes (Docker Registry), el mas famoso es [hub.docker.com](https://hub.docker.com/), pero hay otros:
+
+- quayio
+- mcr
+- gcr
+- gitlab.com
+
+
+## Puedo yo tener mi propio repositorio privado?
+
+Si, aprenderemos como.
