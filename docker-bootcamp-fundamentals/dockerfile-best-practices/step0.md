@@ -16,7 +16,7 @@ son los 4 comandos que agregan capas.
 
 Probemos construirla
 
-`cd 1.getting-started-docker/dockerfile-bestpractices/0;  docker build -t step0 -f 0.Dockerfile .`{{execute}}
+`cd 1.getting-started-docker/dockerfile-bestpractices/;  docker build -t step0 -f 0.Dockerfile .`{{execute}}
 
 E inspeccionemo
 
