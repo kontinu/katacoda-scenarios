@@ -7,10 +7,15 @@
 `katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/4.Dockerfile`{{open}}
 
 
-`cd katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/ 2>/dev/null;  docker build -t step3 -f 3.Dockerfile .`{{execute}}
+`cd katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/ 2>/dev/null;  docker build -t step4 -f 4.Dockerfile .`{{execute}}
 
-e inspeccionemos el tamaño
+e inspeccionemos el historial
 
-`docker image ls |grep step3`{{execute}}
+`docker image history step4`{{execute}}
 
-> Ojo: no se puede usar en todos los casos
+
+Compilemos con otra imagen
+
+`cd katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/ 2>/dev/null;  docker build --build-arg="VERSION=3.3"  -t step4 -f 4.Dockerfile .`{{execute}}
+
+`docker image history step4`{{execute}}
