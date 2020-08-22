@@ -2,13 +2,13 @@
 
 `git clone https://github.com/kontinu/katacoda-scenarios.git`{{execute}}
 
-`cd 1.getting-started-docker/dockerfile-bestpractices/`{{execute}}
+`cd katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/`{{execute}}
 
 # Basics
 
 Podemos hacer todo por separado.
 
-`1.getting-started-docker/dockerfile-bestpractices/0.Dockerfile`{{open}}
+`katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/0.Dockerfile`{{open}}
 
 
 Ese Dockerfile agregaria 6 capas. Una capa por cada linea.
@@ -22,7 +22,7 @@ son los 4 comandos que agregan capas.
 
 Probemos construirla
 
-`cd 1.getting-started-docker/dockerfile-bestpractices/;  docker build -t step0 -f 0.Dockerfile .`{{execute}}
+`cd katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/ >/dev/null;  docker build -t step0 -f 0.Dockerfile .`{{execute}}
 
 E inspeccionemo
 
