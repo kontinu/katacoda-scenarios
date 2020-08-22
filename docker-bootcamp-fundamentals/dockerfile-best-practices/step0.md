@@ -8,6 +8,7 @@
 
 Podemos hacer todo por separado.
 
+**Abrir**
 `katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/0.Dockerfile`{{open}}
 
 
