@@ -1,7 +1,8 @@
 # Existen Mejores practicas al momento de desarrollar tu Dockerfile.
 
-> Segund lo recomendado por [Docker](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) y por experience
-entre esas :
+> Segund lo recomendado por [Docker](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) y por experiencia
+
+
 
 - Entender el build context
 - Usar .dockerignore
