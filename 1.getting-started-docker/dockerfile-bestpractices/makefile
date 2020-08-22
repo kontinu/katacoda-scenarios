@@ -1,5 +1,10 @@
 .PHONY: zero 0 one 1 all
 
+fake:
+	@echo "Compiling something"
+	@for i in {1..10};do echo  "." ;sleep 1;done
+	@echo "Done"
+
 zero:
 	@docker build -t $@ -f 0.Dockerfile .
 	@printf "\n\n\n"

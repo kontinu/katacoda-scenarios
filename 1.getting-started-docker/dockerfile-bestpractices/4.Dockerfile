@@ -1,3 +1,5 @@
+# ! Params via ARG
+
 ARG VERSION=3.6
 
 FROM alpine:${VERSION}

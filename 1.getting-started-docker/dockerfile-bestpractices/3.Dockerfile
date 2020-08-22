@@ -6,7 +6,7 @@ RUN apk --no-cache add build-base
 FROM base as build
 WORKDIR /build
 COPY src /build
-RUN gcc -o /binary loopy.c
+RUN gcc -o /binary loopy.cf
 
 
 FROM alpine:3.11 as release
