@@ -8,4 +8,4 @@ RUN apk add --update gcc
 
 COPY . /app/
 
-RUN apk add --update python-dev
+RUN apk add --update python

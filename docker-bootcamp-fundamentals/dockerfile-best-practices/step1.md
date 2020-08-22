@@ -2,11 +2,11 @@
 
 podemos unir instrucciones en un single RUN
 
-`1.getting-started-docker/dockerfile-bestpractices/0.Dockerfile`{{open}}
+`katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/0.Dockerfile`{{open}}
 
 
 
-`cd 1.getting-started-docker/dockerfile-bestpractices/;  docker build -t step1 -f 0.Dockerfile .`{{execute}}
+`cd katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/ 2>/dev/null;  docker build -t step1 -f 0.Dockerfile .`{{execute}}
 
 E inspeccionemos el tamaño
 
@@ -14,4 +14,4 @@ E inspeccionemos el tamaño
 
 # .dockerignore
 
-`ls  1.getting-started-docker/dockerfile-bestpractices/`{{execute}}
+`ls  -ltrash katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/ignore/`{{execute}}
