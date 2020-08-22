@@ -8,9 +8,14 @@
       "description": "comandos basicos"
     },
     {
-        "course_id": "docker-build",
-        "title": "2. Docker build",
-        "description": "Simple Docker builds para generar Imagenes"
-      }
+      "course_id": "docker-build",
+      "title": "2. Docker build",
+      "description": "Simple Docker builds para generar Imagenes"
+    },
+    {
+      "course_id": "dockerfile-best-practices",
+      "title": "Dockerfile best practices",
+      "description": "Mejores practicas para realizar tus Dockerfiles"
+    }
   ]
 }
