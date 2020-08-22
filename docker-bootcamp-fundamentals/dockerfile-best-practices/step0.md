@@ -11,7 +11,7 @@ Podemos hacer todo por separado.
 `katacoda-scenarios/1.getting-started-docker/dockerfile-bestpractices/0.Dockerfile`{{open}}
 
 
-Ese Dockerfile agregaria 6 capas. Una capa por cada linea.
+Ese Dockerfile agregaria 1 capa por cada linea.
 
 - FROM
 - ADD
