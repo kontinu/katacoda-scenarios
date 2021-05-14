@@ -3,9 +3,9 @@
   "description": "Getting started with kubernetes",
   "courses": [
     {
-      "course_id": "Step1 - Create a cluster",
-      "title": "Step1 - Create a cluster",
-      "description": "Create a cluster with minikube"
+      "course_id": "step1-create-a-cluster",
+      "title": "step1 - create a cluster",
+      "description": "Create a single node cluster with minikube"
     }
   ]
 }
