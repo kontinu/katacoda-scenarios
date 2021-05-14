@@ -1,0 +1,11 @@
+{
+  "title": "Kubernetes User",
+  "description": "Getting started with kubernetes",
+  "courses": [
+    {
+      "course_id": "Step1 - Create a cluster",
+      "title": "Step1 - Create a cluster",
+      "description": "Create a cluster with minikube"
+    }
+  ]
+}
