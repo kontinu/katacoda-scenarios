@@ -3,14 +3,15 @@
   "description": "Getting started with kubernetes",
   "courses": [
     {
-      "course_id": "step1-create-a-cluster",
-      "title": "step1 - create a cluster",
-      "description": "Create a single node cluster with minikube"
-    },
-    {
       "course_id": "step0-docker-basics",
       "title": "step0 - docker basics",
       "description": "Simple Docker to run and build containers"
+    },
+    {
+      "course_id": "step1-create-a-cluster",
+      "title": "step1 - create a cluster",
+      "description": "Create a single node cluster with minikube"
     }
+
   ]
 }
