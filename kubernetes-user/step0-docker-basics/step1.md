@@ -6,6 +6,8 @@ To launch a container in docker we specify the following
 
 The `-d` means run in detached mode.
 
+> In other words this means: run an "nginx" image in detached mode
+
 This doesn't allow us to access our nginx instance though as we didn't expose it!
 
 Let's try again:
