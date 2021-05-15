@@ -1,5 +1,5 @@
-FROM nginx
+FROM nginx:alpine
 
-ADD index.html /usr/share/nginx/html/
+COPY index.html /usr/share/nginx/html/
 
 # ADD image.png /usr/share/nginx/public
