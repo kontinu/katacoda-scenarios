@@ -23,10 +23,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "*", "target": "/files"}]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/files"
   },
   "backend": {
     "imageid": "ubuntu:2004"
