@@ -14,3 +14,10 @@ Look at the file `/Dockerfile`{{open}}:
 > -t : specifies the name of the result image
 > -f : specifies the location of the Dockerfile
 > files/:  specifies the context
+
+
+# inspect local images
+
+`docker image list`{{execute}}
+
+
