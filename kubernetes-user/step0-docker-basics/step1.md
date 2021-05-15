@@ -26,3 +26,8 @@ To see currently running containers run:
 If you want to see the whole output:
 
 `docker ps --no-trunc`{{execute}}
+
+
+We can even see it exposed publicly
+
+https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
