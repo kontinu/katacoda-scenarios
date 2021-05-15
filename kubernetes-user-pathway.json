@@ -9,7 +9,7 @@
     },
     {
       "course_id": "step0-docker-basics",
-      "title": "Docker basics",
+      "title": "step0 - docker basics",
       "description": "Simple Docker to run and build containers"
     }
   ]
