@@ -6,6 +6,11 @@
       "course_id": "step1-create-a-cluster",
       "title": "step1 - create a cluster",
       "description": "Create a single node cluster with minikube"
+    },
+    {
+      "course_id": "docker-basics",
+      "title": "Docker basics",
+      "description": "Simple Docker to run and build containers"
     }
   ]
 }

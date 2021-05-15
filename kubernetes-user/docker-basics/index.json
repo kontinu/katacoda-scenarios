@@ -1,8 +1,8 @@
 {
-  "title": "Simple Docker builds para generar Imagenes",
-  "description": "Simple Docker builds para generar Imagenes",
+  "title": "Docker basics",
+  "description": "Simple Docker to run and build containers",
   "difficulty": "Beginner",
-  "time": "10",
+  "time": "8-10 minutes",
   "details": {
     "steps": [
       {
@@ -23,15 +23,12 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [{"file": "*", "target": "/files"}]
     }
   },
   "environment": {
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu:2004"
   }
 }
