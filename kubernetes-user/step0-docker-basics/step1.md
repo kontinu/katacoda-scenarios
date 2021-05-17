@@ -31,3 +31,7 @@ If you want to see the whole output:
 We can even see it exposed publicly:
 
 https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
+
+### Stop a container
+
+`docker stop <container_name|container_id>`
