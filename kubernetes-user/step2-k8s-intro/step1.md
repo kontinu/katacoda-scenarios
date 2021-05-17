@@ -35,3 +35,4 @@ this creates the Objects that are specified in `/nginx.yaml`{{open}}
 
 
 `kubectl get -f files/nginx.yaml`{{execute}}
+
