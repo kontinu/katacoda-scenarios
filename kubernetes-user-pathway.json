@@ -13,9 +13,15 @@
       "description": "Create a single node cluster with minikube"
     },
     {
+      "course_id": "step2-k8s-intro",
+      "title": "Step2 - Kubernetes Objects intro",
+      "description": "Pods, imperative/declarative, Hello World"
+    },
+    {
       "course_id": "step3-pods-ns",
       "title": "Step3 - Pods",
       "description": "Manage Pods, Labels and Namespaces"
     }
+
   ]
 }
