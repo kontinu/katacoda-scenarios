@@ -35,10 +35,12 @@ List running pods and its labels:
 
 # imperative configuration
 
+Create the resource that is specified in `/nginx.yaml`{{open}}
+
+
 `kubectl create -f files/nginx.yaml`{{execute}}
 
-this creates the Objects that are specified in `/nginx.yaml`{{open}}
 
 
-`kubectl get -f files/nginx.yaml`{{execute}}
+`kubectl get -f files/nginx.yaml --show-labels`{{execute}}
 
