@@ -13,8 +13,8 @@
       "description": "Create a single node cluster with minikube"
     },
     {
-      "course_id": "step2-pods-ns",
-      "title": "Step2 - Pods",
+      "course_id": "step3-pods-ns",
+      "title": "Step3 - Pods",
       "description": "Manage Pods, Labels and Namespaces"
     }
   ]
