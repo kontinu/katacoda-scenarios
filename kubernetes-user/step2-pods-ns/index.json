@@ -1,5 +1,5 @@
 {
-  "title": "Pods",
+  "title": "K8s - Pods",
   "description": "Manage Pods, Labels and Namespaces",
   "difficulty": "beginner",
   "time": "8-10 minutes",
