@@ -9,7 +9,7 @@
     },
     {
       "course_id": "step1-create-a-cluster",
-      "title": "step1 - create a cluster",
+      "title": "step1 - create a cluster 🕸️",
       "description": "Create a single node cluster with minikube"
     }
 
