@@ -18,12 +18,12 @@ We have a Deployment that controls 2 Pods, but we can't access it.
 
 # Expose it
 
+Creates a service of type LoadBalancer
 
-`kubectl expose deployment hello-world --type=NodePort --name=example-service`{{execute}}
+`kubectl expose deployment hello-world --type=LoadBalancer --name=example-service`{{execute}}
 
-This creates a service of type NodePort, to inspect the Object:
-
+to inspect the Service:
 `kubectl get svc`{{execute}}
 
 
-https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
