@@ -29,7 +29,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "files/"
   },
   "backend": {
     "imageid": "minikube-running"
