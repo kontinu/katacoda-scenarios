@@ -16,7 +16,7 @@ Let's try again:
 
 Now you should be able to access the basic html website with:
 
-`curl docker:8081`{{execute}}
+`curl localhost:8081`{{execute}}
 
 
 To see currently running containers run:
