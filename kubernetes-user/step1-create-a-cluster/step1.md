@@ -6,11 +6,6 @@ We already installed minikube for you. Check that it is properly installed, by r
 OK, we can see that minikube is in place.
 
 
-Check the status of the cluster:
-
-`minikube status`{{execute}}
-
-
 Start the cluster, by running the minikube start command:
 
 `minikube start`{{execute}}
