@@ -12,3 +12,5 @@ This command shows all nodes that can be used to host our applications. Now we h
 
 
 # Kubernetes system workloads
+
+`kubectl get pods --namespace kube-system`{{execute}}
