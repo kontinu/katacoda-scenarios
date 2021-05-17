@@ -8,6 +8,9 @@ This tells kubernetes create a Deployment named=nginx from `nginx` image.
 `kubectl get deployments`{{execute}}
 
 
+`kubectl get deployments nginx -oyaml`{{execute}}
+
+
 `kubectl describe deployments nginx`{{execute}}
 
 
