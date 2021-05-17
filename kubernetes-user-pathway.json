@@ -16,12 +16,8 @@
       "course_id": "step2-k8s-intro",
       "title": "Step2 - Kubernetes Objects intro",
       "description": "Pods, imperative/declarative, Hello World Deployment & Service"
-    },
-    {
-      "course_id": "step3-pods-ns",
-      "title": "Step3 - Pods",
-      "description": "Manage Pods, Labels and Namespaces"
     }
+
 
   ]
 }
