@@ -11,6 +11,9 @@ This command shows all nodes that can be used to host our applications. Now we h
 
 
 
-# Kubernetes system workloads
+# Kubernetes system (kube-system) pods
 
 `kubectl get pods --namespace kube-system`{{execute}}
+
+
+> here we see a new flag `--namespace` which specifies under which namespace we want to get the pods, we will learn about Namespaces in a further lesson.
