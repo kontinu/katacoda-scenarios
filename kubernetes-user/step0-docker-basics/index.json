@@ -30,7 +30,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/files"
+    "uieditorpath": "files/"
   },
   "backend": {
     "imageid": "ubuntu:2004"
