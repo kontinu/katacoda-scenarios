@@ -24,3 +24,8 @@ https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/
 
 Try launching a `httpd` container on port 8050 and connect to it
 
+
+
+Once you finish you can connect to it using the following link:
+
+https://[[HOST_SUBDOMAIN]]-8050-[[KATACODA_HOST]].environments.katacoda.com/
