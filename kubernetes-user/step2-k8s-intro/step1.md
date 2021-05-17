@@ -13,17 +13,23 @@ This tells kubernetes create a Deployment named=nginx from `nginx` image.
 ## Explore objects
 
 List all running deployments:
+
 `kubectl get deployments`{{execute}}
 
 
 Get the resulting YAML of the object we created:
+
 `kubectl get deployments nginx -oyaml`{{execute}}
 
+> try to understand the YAML output
+
 Show the details of the deployment:
+
 `kubectl describe deployments nginx`{{execute}}
 
 
 List running pods and its labels:
+
 ` kubectl get pods --show-labels`{{execute}}
 
 
