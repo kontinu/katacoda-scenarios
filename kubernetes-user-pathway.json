@@ -14,7 +14,7 @@
     },
     {
       "course_id": "step2-pods-ns",
-      "title": "Pods",
+      "title": "Step2 - Pods",
       "description": "Manage Pods, Labels and Namespaces"
     }
   ]
