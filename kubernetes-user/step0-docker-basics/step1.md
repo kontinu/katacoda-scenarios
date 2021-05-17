@@ -32,6 +32,7 @@ We can even see it exposed publicly:
 
 https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
 
-### Stop a container
+# Stop a container
+to stop a running container you can run the following command
 
 `docker stop <container_name|container_id>`
