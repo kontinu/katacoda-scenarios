@@ -33,6 +33,6 @@
     "uieditorpath": "files/"
   },
   "backend": {
-    "imageid": "minikube-running"
+    "imageid": "kubernetes-cluster"
   }
 }
