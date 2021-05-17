@@ -2,7 +2,7 @@
 
 `kubectl run nginx --image=nginx`{{execute}}
 
-This tells kubernetes create a Pod from `nginx` image.
+This tells kubernetes create a Deployment from `nginx` image.
 
 
 # imperative configuration
