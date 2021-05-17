@@ -34,6 +34,6 @@
     "uieditorpath": "files/"
   },
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes"
   }
 }
