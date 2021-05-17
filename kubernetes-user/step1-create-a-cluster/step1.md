@@ -16,3 +16,14 @@ Great! You now have a running Kubernetes cluster in your online terminal. Miniku
 Check the status of the cluster:
 
 `minikube status`{{execute}}
+
+
+## Launch dashboard 🚀
+
+`minikube dashboard`{{execute}}
+
+
+
+https://[[HOST_SUBDOMAIN]]-59159-[[KATACODA_HOST]].environments.katacoda.com/
+
+
