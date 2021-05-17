@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes User 🇺🇸",
-  "description": "Getting started with kubernetes as a successful user",
+  "description": "Getting started with kubernetes as a successful user 👨‍💻",
   "courses": [
     {
       "course_id": "step0-docker-basics",
@@ -11,7 +11,11 @@
       "course_id": "step1-create-a-cluster",
       "title": "step1 - create a cluster 🕸️",
       "description": "Create a single node cluster with minikube"
+    },
+    {
+      "course_id": "step2-pods-ns",
+      "title": "Pods",
+      "description": "Manage Pods, Labels and Namespaces"
     }
-
   ]
 }
