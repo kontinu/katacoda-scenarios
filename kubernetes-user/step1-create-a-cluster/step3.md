@@ -1,19 +1,28 @@
-# cluster information
-Let’s view the cluster details. We’ll do that by running kubectl cluster-info:
+# Deploying something to kubernetes
 
-`kubectl cluster-info`{{execute}}
+Using kubectl run, it allows containers to be deployed onto the cluster - `kubectl create deployment first-deployment --image=katacoda/docker-http-server`{{execute}}
 
-During this tutorial, we’ll be focusing on the command line for deploying and exploring our application. To view the nodes in the cluster, run the kubectl get nodes command:
+The status of the deployment can be discovered via the running Pods - `kubectl get pods`{{execute}}
 
-`kubectl get nodes`{{execute}}
+Once the container is running it can be exposed via different networking options, depending on requirements. One possible solution is NodePort, that provides a dynamic port to a container.
 
-This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).
+`kubectl expose deployment first-deployment --port=80 --type=NodePort`{{execute}}
 
+---
 
+# Dashboard
 
-# Kubernetes system (kube-system) pods
+Enable the dashboard using Minikube with the command `minikube addons enable dashboard`{{execute}}
 
-`kubectl get pods --namespace kube-system`{{execute}}
+Make the Kubernetes Dashboard available by deploying the following YAML definition. This should only be used on Katacoda.
 
+`kubectl apply -f /opt/kubernetes-dashboard.yaml`{{execute}}
 
-> here we see a new flag `--namespace` which specifies under which namespace we want to get the pods, we will learn about Namespaces in a further lesson.
+The Kubernetes dashboard allows you to view your applications in a UI. In this deployment, the dashboard has been made available on port 30000 but may take a while to start.
+
+To see the progress of the Dashboard starting, watch the Pods within the kube-system namespace using `kubectl get pods -n kubernetes-dashboard -w`{{execute}}
+
+Once running, the URL to the dashboard is
+
+https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+

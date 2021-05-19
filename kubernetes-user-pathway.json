@@ -16,8 +16,11 @@
       "course_id": "step2-k8s-intro",
       "title": "Step2 - Kubernetes Objects intro",
       "description": "Pods, imperative/declarative, Hello World Deployment & Service"
+    },
+    {
+      "course_id": "step3-deploy-an-app",
+      "title": "Step3 - Deploy an app",
+      "description": "Learn about application Deployments"
     }
-
-
   ]
 }
