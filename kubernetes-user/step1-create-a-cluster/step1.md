@@ -20,12 +20,18 @@ Check the status of the cluster:
 `minikube status`{{execute}}
 
 
+
+## Enable the dashboard
+
+`minikube addons enable dashboard`{{execute}}
+
+`kubectl apply -f files/dashboard.yaml`{{execute}}
+
 ## Launch dashboard 🚀
 
 `minikube dashboard`{{execute}}
 
 
-
-https://[[HOST_SUBDOMAIN]]-59159-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
 
 

@@ -19,7 +19,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "set-env.sh"
+
     },
     "finish": {
       "text": "finish.md"
