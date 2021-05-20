@@ -1,10 +1,16 @@
 # Deploying something to kubernetes
 
-Using kubectl run, it allows containers to be deployed onto the cluster - `kubectl create deployment first-deployment --image=katacoda/docker-http-server`{{execute}}
+Using kubectl run, it allows containers to be deployed onto the cluster -
 
-The status of the deployment can be discovered via the running Pods - `kubectl get pods`{{execute}}
+`kubectl create deployment first-deployment --image=katacoda/docker-http-server`{{execute}}
 
-Once the container is running it can be exposed via different networking options, depending on requirements. One possible solution is NodePort, that provides a dynamic port to a container.
+The status of the deployment can be discovered via the running Pods & the Deployment itself
+
+`kubectl get pods`{{execute}}
+
+`kubectl get deploy`{{execute}}
+
+Once the Pod is running it can be exposed via different networking options, depending on requirements. One possible solution is NodePort, that provides a dynamic port to a container.
 
 `kubectl expose deployment first-deployment --port=80 --type=NodePort`{{execute}}
 
@@ -12,17 +18,25 @@ Once the container is running it can be exposed via different networking options
 
 # Dashboard
 
-Enable the dashboard using Minikube with the command `minikube addons enable dashboard`{{execute}}
+go and visit the dashboard, try to explore as much as possible.
 
-Make the Kubernetes Dashboard available by deploying the following YAML definition. This should only be used on Katacoda.
+https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
 
-`kubectl apply -f /opt/kubernetes-dashboard.yaml`{{execute}}
 
-The Kubernetes dashboard allows you to view your applications in a UI. In this deployment, the dashboard has been made available on port 30000 but may take a while to start.
+---
+# Clean up
 
-To see the progress of the Dashboard starting, watch the Pods within the kube-system namespace using `kubectl get pods -n kubernetes-dashboard -w`{{execute}}
+Now you can clean up the resources you created in your cluster:
 
-Once running, the URL to the dashboard is
+`
+kubectl delete service first-deployment
+kubectl delete deployment first-deployment
+`{{execute}}
 
-https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+Optionally, stop the Minikube virtual machine (VM):
 
+`minikube stop`{{execute}}
+
+Optionally, delete the Minikube VM:
+
+`minikube delete`{{execute}}

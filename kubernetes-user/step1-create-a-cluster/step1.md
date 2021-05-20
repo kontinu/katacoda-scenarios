@@ -29,7 +29,10 @@ Check the status of the cluster:
 
 ## Launch dashboard 🚀
 
-`minikube dashboard`{{execute}}
+```
+# in your regular local minikube you'll need to run this command
+minikube dashboard
+```
 
 
 https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
