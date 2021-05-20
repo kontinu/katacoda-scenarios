@@ -1,5 +1,4 @@
 ### Minikube commands
-> this assumes you have minikube already installed
 
 We already installed minikube for you. Check that it is properly installed, by running the minikube version command:
 
