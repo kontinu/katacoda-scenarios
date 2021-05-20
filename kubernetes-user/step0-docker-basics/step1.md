@@ -7,6 +7,7 @@ To launch a container in docker we specify the following
 The `-d` means run in detached mode.
 
 > In other words this means: run an "nginx" image in detached mode
+> where does `nginx` image lives? .... docker.io Container Registry
 
 This doesn't allow us to access our nginx instance though as we didn't expose it!
 
@@ -36,3 +37,15 @@ https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
 to stop a running container you can run the following command
 
 `docker stop <container_name|container_id>`
+
+
+# List current (local) downloaded images
+
+`docker image list`{{execute}}
+
+> these are our downloaded "executables", if an image does not exist locally, `docker run ... ` or `docker image pull`  will download it automatically if you are authenticated to the registry where your image lives, docker.io allows to pull images with no authentication.
+
+
+Let's say you want to download `ubuntu:20.10` image:
+
+`docker image pull ubuntu:20.10`{{execute}}
