@@ -17,6 +17,7 @@ This means we are running our own executable! 🎉
 
 > obviously we need to use a different local port '9092'
 
+
 # List running container
 
 `docker container ps`{{execute}}
@@ -31,9 +32,7 @@ https://[[HOST_SUBDOMAIN]]-9092-[[KATACODA_HOST]].environments.katacoda.com/
 
 ### Exercise
 
-Try launching a `httpd` container on port 8050 and connect to it
-
-
+Try launching a `httpd` (apache web server) container on port 8050 and connect to it, it listens in port 80 ... so the port-forward should be something like : `-p 8050:80`
 
 Once you finish you can connect to it using the following link:
 

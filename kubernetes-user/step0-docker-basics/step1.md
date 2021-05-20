@@ -19,6 +19,12 @@ Now you should be able to access the basic html website with:
 
 `curl localhost:8081`{{execute}}
 
+## Run a named container
+
+`docker run -d  --name=my-container nginx`{{execute}}
+
+
+# Running containers
 
 To see currently running containers run:
 
@@ -38,6 +44,15 @@ to stop a running container you can run the following command
 
 `docker stop <container_name|container_id>`
 
+`docker stop my-container`{{execute}}
+
+`docker ps`{{execute}}
+
+> once a container is stopped we can start it again using
+
+`docker start my-container`{{execute}}
+
+`docker ps`{{execute}}
 
 # List current (local) downloaded images
 
