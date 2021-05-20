@@ -4,17 +4,17 @@
   "courses": [
     {
       "course_id": "step0-docker-basics",
-      "title": "docker basics 🐳",
+      "title": "Docker Basics 🐳",
       "description": "Simple Docker to run and build containers"
     },
     {
       "course_id": "step1-create-a-cluster",
-      "title": "create a cluster 🕸️",
+      "title": "Create a k8s Cluster 🕸️",
       "description": "Create a single node cluster with minikube"
     },
     {
       "course_id": "step2-k8s-intro",
-      "title": "Kubernetes Objects intro",
+      "title": "Kubernetes Objects Intro",
       "description": "Pods, imperative/declarative, Hello World Deployment & Service"
     },
     {
