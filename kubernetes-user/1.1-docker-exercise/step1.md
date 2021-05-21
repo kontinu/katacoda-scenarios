@@ -3,7 +3,7 @@
 - check docker version installed
 
 
-
+---
 # Step 2 - Dockerfile
 
 Update the Dockerfile inside the `files/` folder with the following requirements
@@ -16,7 +16,7 @@ Update the Dockerfile inside the `files/` folder with the following requirements
 
 Tag your image with the name docker-exercise:v1.0
 
-
+---
 # Step 3 - images
 
 List local images to check your image size.
@@ -45,4 +45,6 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 Start two more containers, one in port 8082 and 8084, you might probably need different names.
 
 https://[[HOST_SUBDOMAIN]]-8082-[[KATACODA_HOST]].environments.katacoda.com/
+
+
 https://[[HOST_SUBDOMAIN]]-8084-[[KATACODA_HOST]].environments.katacoda.com/
