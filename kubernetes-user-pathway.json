@@ -8,6 +8,11 @@
       "description": "Simple Docker to run and build containers"
     },
     {
+      "course_id": "step0.1-docker-exercise",
+      "title": "Docker Exercise 🐳",
+      "description": "A Docker challenge"
+    },
+    {
       "course_id": "step1-create-a-cluster",
       "title": "Create a k8s Cluster 🕸️",
       "description": "Create a single node cluster with minikube"
