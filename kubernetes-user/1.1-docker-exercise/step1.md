@@ -14,10 +14,15 @@ Update the Dockerfile inside the `files/` folder with the following requirements
 - RUN: make sure to make the bootstrap.sh file executable (chmod +x ...)
 - CMD: run the `/bootstrap.sh` as the CMD in "list" format (["item"])
 
+---
+# Step 3 -  build your dockerfile
+
+Build your dockerfile using the following command.
+
+`docker builld -t docker-exercise:v1.0 -f files/Dockerfile files/`{{execute}}
+
 Tag your image with the name docker-exercise:v1.0
 
----
-# Step 3 - images
 
 List local images to check your image size.
 
