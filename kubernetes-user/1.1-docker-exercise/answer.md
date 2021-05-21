@@ -27,7 +27,7 @@ CMD [ "/bootstrap.sh" ]
 
 ```
 
-# Step 3 -  build your dockerfile
+### Step 3 -  build your dockerfile
 
 `docker builld -t docker-exercise:v1.0 -f files/Dockerfile files/`{{execute}}
 
@@ -37,7 +37,7 @@ CMD [ "/bootstrap.sh" ]
 `docker image history docker-exercise:v1.0`{{execute}}
 
 
-# Step 4 - Running
+### Step 4 - Running
 
 `docker run -d -p 8080:80 docker-exercise:v1.0 --name=my-app`{{execute}}
 
