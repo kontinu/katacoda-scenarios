@@ -1,6 +1,7 @@
-FROM nginx:alpine
+# use a base image
+# FROM
 
-# install any dependencies ... replace xyz
+# install any dependencies ... REPLACE xyz
 RUN apk add --update xyz
 
 # copy the bootstrap.sh file to /

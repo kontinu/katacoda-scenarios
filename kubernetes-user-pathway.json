@@ -3,28 +3,28 @@
   "description": "Getting started with kubernetes as a successful user 👨‍💻",
   "courses": [
     {
-      "course_id": "step0-docker-basics",
-      "title": "Docker Basics 🐳",
+      "course_id": "1-docker-basics",
+      "title": "1.0 Docker Basics 🐳",
       "description": "Simple Docker to run and build containers"
     },
     {
-      "course_id": "step0.1-docker-exercise",
-      "title": "Docker Exercise 🐳",
+      "course_id": "1.1-docker-exercise",
+      "title": "1.1 Docker Exercise 🐳",
       "description": "A Docker challenge"
     },
     {
-      "course_id": "step1-create-a-cluster",
-      "title": "Create a k8s Cluster 🕸️",
+      "course_id": "2-create-a-cluster",
+      "title": "2. Create a k8s Cluster 🕸️",
       "description": "Create a single node cluster with minikube"
     },
     {
-      "course_id": "step2-k8s-intro",
-      "title": "Kubernetes Objects Intro",
+      "course_id": "3-k8s-intro",
+      "title": "3. Kubernetes Objects Intro",
       "description": "Pods, imperative/declarative, Hello World Deployment & Service"
     },
     {
-      "course_id": "step3-deploy-an-app",
-      "title": "Deploy an app",
+      "course_id": "5-deploy-an-app",
+      "title": "5. Deploy an app",
       "description": "Learn about application Deployments"
     }
   ]
