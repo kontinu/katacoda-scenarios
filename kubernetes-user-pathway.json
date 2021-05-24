@@ -3,7 +3,7 @@
   "description": "Getting started with kubernetes as a successful user 👨‍💻",
   "courses": [
     {
-      "course_id": "1-docker-basics",
+      "course_id": "1.0-docker-basics",
       "title": "1.0 Docker Basics 🐳",
       "description": "Simple Docker to run and build containers"
     },
