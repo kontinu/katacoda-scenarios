@@ -18,6 +18,9 @@ Check the status of the cluster:
 
 `minikube status`{{execute}}
 
+
+
+
 ### Kind
 
 ```bash
