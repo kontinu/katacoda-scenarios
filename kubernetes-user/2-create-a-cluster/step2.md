@@ -7,7 +7,9 @@ OK, kubectl is configured and we can see both the version of the client and as w
 
 
 # cluster information
-Let’s view the cluster details. We’ll do that by running kubectl cluster-info:
+Let’s view the cluster details, try to inspect what size is the cluster?
+
+We’ll do that by running kubectl cluster-info:
 
 `kubectl cluster-info`{{execute}}
 
@@ -17,9 +19,22 @@ During this tutorial, we’ll be focusing on the command line for deploying and 
 
 This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that its status is ready (it is ready to accept applications for deployment).
 
+Let's get a bit more details by modifying the output using *wide* output
+
+`kubectl get nodes -owide`{{execute}}
+
+
+...
+
+Now how much CPU or Memory do we have available in this cluster? let's find output
+
+`kubectl describe nodes minikube`{{execute}}
+
 
 
 # Kubernetes system (kube-system) pods
+
+what is running by default in a vainilla 🍦 kubernetes?
 
 `kubectl get pods --namespace kube-system`{{execute}}
 

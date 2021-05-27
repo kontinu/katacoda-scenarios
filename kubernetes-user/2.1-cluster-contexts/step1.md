@@ -18,24 +18,10 @@ Check the status of the cluster:
 
 `minikube status`{{execute}}
 
+### Kind
 
-
-## Enable the dashboard
-
-`minikube addons enable dashboard`{{execute}}
-
-`kubectl apply -f files/dashboard.yaml`{{execute}}
-
-## Launch dashboard 🚀
-
-https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
-
-
+```bash
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.0/kind-linux-amd64
+chmod +x ./kind
+mv ./kind /usr/bin/kind
 ```
-# in your regular local minikube you'll need to run this command
-minikube dashboard
-```
-
-
-
-
