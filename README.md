@@ -9,3 +9,12 @@
 
 Visit our training scenarios here https://katacoda.com/kontinu
 <!-- kubernetes https://training.play-with-kubernetes.com/kubernetes-workshop/ -->
+
+
+# ToDO
+
+
+- learn to logs
+- "restart" a Pod
+- exec inside a pod
+- describe/inspect a Pod
